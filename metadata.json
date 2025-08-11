@@ -1,0 +1,6 @@
+{
+  "name": "Classroom Seating Chart Generator 2.0",
+  "description": "An interactive tool for teachers to create, manage, and optimize classroom seating arrangements based on student profiles and various pedagogical strategies. Supports Excel import, visual layout editing, algorithmic student placement, and PDF export.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

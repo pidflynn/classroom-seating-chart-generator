@@ -1,0 +1,61 @@
+
+{
+  "className": "7i - Computer Science seating A",
+  "students": [
+    { "id": "student-ds-01", "name": "Nguyen Van An", "nationality": "Vietnamese", "englishAbility": 1, "gender": "male" },
+    { "id": "student-ds-02", "name": "Tran Thi Binh", "nationality": "Vietnamese", "englishAbility": 2, "gender": "female" },
+    { "id": "student-ds-03", "name": "Le Minh Cuong", "nationality": "Vietnamese", "englishAbility": 3, "gender": "male" },
+    { "id": "student-ds-04", "name": "Pham Hoai Dan", "nationality": "Vietnamese", "englishAbility": 3, "gender": "female" },
+    { "id": "student-ds-05", "name": "Vo Tuan Em", "nationality": "Vietnamese", "englishAbility": 4, "gender": "male" },
+    { "id": "student-ds-06", "name": "Do Ngoc Giang", "nationality": "Vietnamese", "englishAbility": 4, "gender": "female" },
+    { "id": "student-ds-07", "name": "Hoang Van Hai", "nationality": "Vietnamese", "englishAbility": 5, "gender": "male" },
+    { "id": "student-ds-08", "name": "Bui Thi Kim", "nationality": "Vietnamese", "englishAbility": 5, "gender": "female" },
+    { "id": "student-ds-09", "name": "Dang Quang Long", "nationality": "Vietnamese", "englishAbility": 3, "gender": "male" },
+    { "id": "student-ds-10", "name": "Ly My Nhan", "nationality": "Vietnamese", "englishAbility": 4, "gender": "female" },
+    { "id": "student-ds-11", "name": "Kim Min-jun", "nationality": "Korean", "englishAbility": 1, "gender": "male" },
+    { "id": "student-ds-12", "name": "Lee Seo-yeon", "nationality": "Korean", "englishAbility": 2, "gender": "female" },
+    { "id": "student-ds-13", "name": "Park Ji-hoon", "nationality": "Korean", "englishAbility": 3, "gender": "male" },
+    { "id": "student-ds-14", "name": "Choi Soo-min", "nationality": "Korean", "englishAbility": 3, "gender": "female" },
+    { "id": "student-ds-15", "name": "Jung Hyun-woo", "nationality": "Korean", "englishAbility": 4, "gender": "male" },
+    { "id": "student-ds-16", "name": "Kang Ji-eun", "nationality": "Korean", "englishAbility": 4, "gender": "female" },
+    { "id": "student-ds-17", "name": "Yoon Dong-hyun", "nationality": "Korean", "englishAbility": 5, "gender": "male" },
+    { "id": "student-ds-18", "name": "Han Yoo-jin", "nationality": "Korean", "englishAbility": 5, "gender": "female" },
+    { "id": "student-ds-19", "name": "Song Jae-hee", "nationality": "Korean", "englishAbility": 3, "gender": "male" },
+    { "id": "student-ds-20", "name": "Im Chae-won", "nationality": "Korean", "englishAbility": 4, "gender": "female" },
+    { "id": "student-ds-21", "name": "Suzuki Taro", "nationality": "Japanese", "englishAbility": 3, "gender": "male" },
+    { "id": "student-ds-22", "name": "Wang Lin", "nationality": "Chinese", "englishAbility": 3, "gender": "female" },
+    { "id": "student-ds-23", "name": "Somchai Boonmee", "nationality": "Thai", "englishAbility": 5, "gender": "male" },
+    { "id": "student-ds-24", "name": "Maria Santos", "nationality": "Filipino", "englishAbility": 5, "gender": "female" }
+  ],
+  "tables": [
+    { "id": "table-ds-1", "x": 50, "y": 50, "capacity": 4, "rotation": 0, "studentSlots": [
+      { "id": "table-ds-1-slot-0", "studentId": "student-ds-01" }, { "id": "table-ds-1-slot-1", "studentId": "student-ds-02" },
+      { "id": "table-ds-1-slot-2", "studentId": "student-ds-03" }, { "id": "table-ds-1-slot-3", "studentId": "student-ds-04" }
+    ]},
+    { "id": "table-ds-2", "x": 300, "y": 50, "capacity": 4, "rotation": 0, "studentSlots": [
+      { "id": "table-ds-2-slot-0", "studentId": "student-ds-05" }, { "id": "table-ds-2-slot-1", "studentId": "student-ds-06" },
+      { "id": "table-ds-2-slot-2", "studentId": "student-ds-07" }, { "id": "table-ds-2-slot-3", "studentId": "student-ds-08" }
+    ]},
+    { "id": "table-ds-3", "x": 50, "y": 200, "capacity": 4, "rotation": 0, "studentSlots": [
+      { "id": "table-ds-3-slot-0", "studentId": "student-ds-09" }, { "id": "table-ds-3-slot-1", "studentId": "student-ds-10" },
+      { "id": "table-ds-3-slot-2", "studentId": "student-ds-11" }, { "id": "table-ds-3-slot-3", "studentId": "student-ds-12" }
+    ]},
+    { "id": "table-ds-4", "x": 300, "y": 200, "capacity": 4, "rotation": 0, "studentSlots": [
+      { "id": "table-ds-4-slot-0", "studentId": "student-ds-13" }, { "id": "table-ds-4-slot-1", "studentId": "student-ds-14" },
+      { "id": "table-ds-4-slot-2", "studentId": "student-ds-15" }, { "id": "table-ds-4-slot-3", "studentId": "student-ds-16" }
+    ]},
+    { "id": "table-ds-5", "x": 50, "y": 350, "capacity": 4, "rotation": 0, "studentSlots": [
+      { "id": "table-ds-5-slot-0", "studentId": "student-ds-17" }, { "id": "table-ds-5-slot-1", "studentId": "student-ds-18" },
+      { "id": "table-ds-5-slot-2", "studentId": "student-ds-19" }, { "id": "table-ds-5-slot-3", "studentId": "student-ds-20" }
+    ]},
+    { "id": "table-ds-6", "x": 300, "y": 350, "capacity": 4, "rotation": 0, "studentSlots": [
+      { "id": "table-ds-6-slot-0", "studentId": "student-ds-21" }, { "id": "table-ds-6-slot-1", "studentId": "student-ds-22" },
+      { "id": "table-ds-6-slot-2", "studentId": "student-ds-23" }, { "id": "table-ds-6-slot-3", "studentId": "student-ds-24" }
+    ]}
+  ],
+  "teacherDesk": { "id": "desk-ds-1", "x": 600, "y": 50 },
+  "tableGroups": [
+    { "id": "group-ds-1", "tableIds": ["table-ds-1", "table-ds-2"] },
+    { "id": "group-ds-2", "tableIds": ["table-ds-3", "table-ds-4"] }
+  ]
+}
