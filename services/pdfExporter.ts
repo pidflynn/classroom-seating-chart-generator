@@ -13,9 +13,14 @@ export const exportLayoutAsPDF = async (className: string): Promise<void> => {
 
   try {
     const canvas = await html2canvas(layoutElement, { 
-        scale: 2, // Improve resolution
-        useCORS: true, // If using external images (not relevant here but good practice)
-        backgroundColor: '#ffffff' // Ensure background for transparent elements
+        scale: 3, // Higher resolution for better text rendering
+        useCORS: true,
+        backgroundColor: '#ffffff',
+        letterRendering: true, // Better text rendering
+        allowTaint: false,
+        foreignObjectRendering: true, // Better handling of complex layouts
+        scrollX: 0,
+        scrollY: 0
     });
     const imgData = canvas.toDataURL('image/png');
     

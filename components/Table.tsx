@@ -129,9 +129,9 @@ const TableComponent: React.FC<TableProps> = ({
               <div style={contentWrapperStyle}>
                 {student ? (
                   <>
-                    <div className="font-semibold truncate w-full" style={{fontSize: '0.85rem'}}>{student.name}</div>
-                    <div className="text-gray-600 text-[0.72rem] truncate w-full">{student.nationality}</div>
-                    <div className="text-gray-500 text-[0.65rem]">L:{student.englishAbility} G:{student.gender.substring(0,1).toUpperCase()}</div>
+                    <div className="font-semibold truncate w-full leading-tight" style={{fontSize: '0.85rem', marginBottom: '1px'}}>{student.name}</div>
+                    <div className="text-gray-600 truncate w-full leading-tight" style={{fontSize: '0.72rem', marginBottom: '1px'}}>{student.nationality}</div>
+                    <div className="text-gray-500 leading-tight" style={{fontSize: '0.65rem'}}>L:{student.englishAbility} G:{student.gender.substring(0,1).toUpperCase()}</div>
                   </>
                 ) : (
                   <span className="text-gray-400 text-[0.78rem]">Empty</span>
